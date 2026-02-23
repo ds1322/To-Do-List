@@ -1,2 +1,2 @@
 # To-Do-List
-**A lightweight task management app built with Vanilla JavaScript, featuring dynamic DOM manipulation, array mutation with `unshift` &amp; `filter`, and event-driven UI updates — zero dependencies.**
+A dynamic Todo List app using vanilla JavaScript that allows users to add and remove tasks with real-time DOM updates.
