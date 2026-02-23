@@ -1,0 +1,97 @@
+@import url("https://fonts.cdnfonts.com/css/gilroy-bold");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy-Medium", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  max-width: 38rem;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  margin: 100px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.389);
+  padding: 30px 10px;
+  gap: 20px;
+}
+
+.heading {
+  font-size: 40px;
+}
+
+.addContainer {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+.addContainer > input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  border-radius: 5px;
+  font-size: 15px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.116);
+}
+
+.addContainer > button {
+  padding: 10px 25px;
+  border: 1px solid rgba(236, 234, 234, 0.114);
+  background-color: rgb(44, 164, 150);
+  font-size: 13px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: all linear 0.5s;
+}
+
+.addContainer > button:active {
+  scale: 0.8;
+  background-color: #074b3c;
+}
+
+.listContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.listContainer .list {
+  /* background-color: crimson; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(184, 186, 187, 0.149);
+  padding: 12px;
+  border-radius: 5px;
+}
+
+.list button  {
+  width: 30px;
+  border: none;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all linear 0.2s;
+  /* border-radius: 5px; */
+}
+
+.list button:active {
+  scale: 0.5;
+}
